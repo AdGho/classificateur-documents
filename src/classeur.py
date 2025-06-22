@@ -26,5 +26,20 @@ model.fit(X_train_tfidf, y_train)
 
 # affichage des resulatats
 y_pred = model.predict(X_test_tfidf)
-print("Résultatss :\n")
+print("Résultats :\n")
 print(classification_report(y_test, y_pred, zero_division=0))
+
+# interaction avec l'utilisateur
+print("Tape un texte pour prédire sa catégorie (ou 'quitter' pour quitter)\n")
+while True:
+    texte = input("Ton texte : ")
+    if texte.strip().lower() == "quitter":
+        print("\n Merci et a bientot !")
+        break
+    if not texte.strip():
+        print("Rien n'a été entré, retapez un texte n")
+        continue
+    vecteur = vectorizer.transform([texte])
+    prediction = model.predict(vecteur)[0]
+    print(f" Catégorie prédite : {prediction}\n")
+
