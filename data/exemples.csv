@@ -1,21 +1,31 @@
 texte,categorie
 "Le recrutement de nouveaux profils est en cours",RH
-"La dernière mise à jour du serveur est disponible",Technique
-"Une nouvelle stratégie commerciale a été décidée",Commercial
-"On recherche un développeur back-end",RH
-"La base de données a été migrée sur PostgreSQL",Technique
-"Les ventes du mois dernier ont augmenté",Commercial
-"Les entretiens annuels se dérouleront la semaine prochaine",RH
-"Un bug critique a été corrigé sur l'application mobile",Technique
-"Notre offre client a été repensée pour 2024",Commercial
-"La rédaction du nouveau contrat cadre est terminée",Juridique
-"Une réunion est prévue avec le cabinet d'avocats",Juridique
-"Le rapport financier du trimestre est disponible",Financier
-"La comptabilité est en train de clore l’exercice fiscal",Financier
-"Une campagne de communication va être lancée",Communication
-"Le service marketing prépare les visuels pour LinkedIn",Communication
-"La politique de confidentialité a été mise à jour",Juridique
-"L’équipe communication travaille sur le nouveau logo",Communication
-"Un audit de sécurité a été effectué par l'équipe IT",Technique
-"Un avenant a été ajouté au contrat initial",Juridique
-"Une subvention a été validée par le service finances",Financier
+"Les entretiens annuels auront lieu la semaine prochaine",RH
+"Le service RH organise une formation interne",RH
+"On cherche un profil développeur pour l'équipe IT",RH
+"La responsable RH prépare le bilan social",RH
+"Des ajustements de contrat sont en discussion",RH
+"Une campagne de recrutement débute ce mois-ci",RH
+"Les employés peuvent demander des congés via la plateforme",RH
+"Une réunion est prévue pour les évaluations individuelles",RH
+"Le nouvel organigramme sera présenté lundi",RH
+"La dernière mise à jour du serveur est en production",Technique
+"Un bug critique a été corrigé sur l'application",Technique
+"Le script de déploiement a été automatisé",Technique
+"L’équipe technique gère la maintenance des serveurs",Technique
+"La base de données a été migrée vers PostgreSQL",Technique
+"Les développeurs utilisent Git pour le versionning",Technique
+"Une faille de sécurité a été identifiée",Technique
+"Un test de charge est prévu sur l’API",Technique
+"On a intégré un nouveau framework front-end",Technique
+"Les specs techniques sont disponibles sur Confluence",Technique
+"Une stratégie marketing va être mise en place",Commercial
+"Le service commercial prépare les nouvelles offres",Commercial
+"Les ventes ont augmenté ce trimestre",Commercial
+"Une réunion client est prévue cette semaine",Commercial
+"La prospection commerciale est en cours",Commercial
+"Le responsable commercial part en déplacement",Commercial
+"On va lancer une campagne publicitaire",Commercial
+"Les nouveaux tarifs sont en négociation",Commercial
+"Le CRM a été mis à jour avec les derniers leads",Commercial
+"Une présentation client est en cours de finalisation",Commercial
