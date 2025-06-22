@@ -10,6 +10,8 @@ df = pd.read_csv("data/exemples.csv")
 # bien séparer texte et catégorie pour avoir un bon rapport final
 X = df["texte"]
 y = df["categorie"]
+
+#entrainement de x et y 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 
@@ -25,4 +27,4 @@ model.fit(X_train_tfidf, y_train)
 # affichage des resulatats
 y_pred = model.predict(X_test_tfidf)
 print("Résultatss :\n")
-print(classification_report(y_test, y_pred))
+print(classification_report(y_test, y_pred, zero_division=0))
