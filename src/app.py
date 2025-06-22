@@ -11,7 +11,7 @@ y = df["categorie"]
 vectorizer = TfidfVectorizer()
 X_vect = vectorizer.fit_transform(X)
 model = LogisticRegression(max_iter=1000)
-model.fit(X_vect, y)
+model.fit(X_vect, y) # entrainement des dononées
 
 # fonction de prédiction
 def predire_categorie(texte):
@@ -24,10 +24,10 @@ def predire_categorie(texte):
 # interface visuelle
 iface = gr.Interface(
     fn=predire_categorie,
-    inputs=gr.Textbox(label="  Entrez un texte à classer"),
-    outputs=gr.Textbox(label=" Résultat"),
+    inputs=gr.Textbox(lines=2, placeholder="Ex : Nous cherchons un développeur Java...", label="  Entrez un texte à classer"),
+    outputs=gr.Textbox(label=" Résultat", lines=1),
     title="Classificateur de Documents",
-    description="Écris une phrase et le modèle prédit la catégorie (RH, Technique, etc.)."
+    description="Écris une phrase et le modèle prédit la catégorie (RH, Technique, commercial)."
 )
 
 iface.launch()
